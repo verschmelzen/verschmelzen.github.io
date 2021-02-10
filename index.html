@@ -62,24 +62,10 @@
     <script type="text/javascript">
       var supportsWoff2=function(){if(!("FontFace"in window))return!1;var e=new window.FontFace("t",'url( "data:application/font-woff2," ) format( "woff2" )',{});return e.load()["catch"](function(){})};!function(){"use strict";function e(){var e=navigator.userAgent.toLowerCase();return-1!=e.indexOf("msie")&&8==parseInt(e.split("msie")[1])?"ie8":supportsWoff2()?"blink":"default"}function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent("on"+t,n)}function n(e){if(window.XMLHttpRequest){var n=new XMLHttpRequest,i=e[1]+"?dc="+e[0].split("--")[0];n.open("GET",i,!0),t(n,"load",function(){4===n.readyState&&a(n.responseText,e[0])}),n.send()}else{var o=document.createElement("link");o.href=e[1],o.rel="stylesheet",o.type="text/css",document.getElementsByTagName("head")[0].appendChild(o),document.cookie=e[0]}}function a(t,n){if(document.getElementById(n)&&"ie8"!=e())document.getElementById(n).innerHTML=t;else{var a=document.createElement("style");a.innerHTML=t,document.getElementsByTagName("head")[0].appendChild(a)}}var i=[];if("ie8"!==e()){for(var o=document.getElementsByClassName("js-style"),r=0;r<o.length;r++)o[r].getAttribute("data-font")?i.push([o[r].getAttribute("id"),o[r].getAttribute("data-href")+e()+".css"]):i.push([o[r].getAttribute("id"),o[r].getAttribute("data-href")]);for(var s in i)if("ie8"==e()){var d=document.createElement("link");d.href=i[s][1],d.rel="stylesheet",d.type="text/css",document.getElementsByTagName("head")[0].appendChild(d)}else t(window,"load",n(i[s]))}}();
     </script>
-
-      <!-- Google Tag Manager -->
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-5BP47SJ');</script>
-      <!-- End Google Tag Manager -->
   </head>
 
 
   <body>
-
-
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BP47SJ"
-                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 
 
 
@@ -1726,9 +1712,7 @@
 
 
     <script>function isMergeableObject(e){return e&&"object"==typeof e&&"[object RegExp]"!==Object.prototype.toString.call(e)&&"[object Date]"!==Object.prototype.toString.call(e)}function emptyTarget(e){return Array.isArray(e)?[]:{}}function cloneIfNecessary(e,r){return r&&!0===r.clone&&isMergeableObject(e)?deepmerge(emptyTarget(e),e,r):e}function defaultArrayMerge(e,r,t){var a=e.slice();return r.forEach(function(r,c){void 0===a[c]?a[c]=cloneIfNecessary(r,t):isMergeableObject(r)?a[c]=deepmerge(e[c],r,t):-1===e.indexOf(r)&&a.push(cloneIfNecessary(r,t))}),a}function mergeObject(e,r,t){var a={};return isMergeableObject(e)&&Object.keys(e).forEach(function(r){a[r]=cloneIfNecessary(e[r],t)}),Object.keys(r).forEach(function(c){isMergeableObject(r[c])&&e[c]?a[c]=deepmerge(e[c],r[c],t):a[c]=cloneIfNecessary(r[c],t)}),a}function deepmerge(e,r,t){var a=Array.isArray(r),c=(t||{arrayMerge:defaultArrayMerge}).arrayMerge||defaultArrayMerge;return a?Array.isArray(e)?c(e,r,t):cloneIfNecessary(r,t):mergeObject(e,r,t)}deepmerge.all=function(e,r){if(!Array.isArray(e)||e.length<2)throw new Error("first argument should be an array with at least two elements");return e.reduce(function(e,t){return deepmerge(e,t,r)})};</script>
-    <!-- <script> -->
-    <!--   var _config = deepmerge( window["_config"] || {}, {"transformIn":true,"slider":true,"teaserSlider":true,"goToLink":true,"lang":"en","admin":false,"navToggle":true,"touchNav":true,"lazyImg":true,"cookieServiceDefault":true,"cookieBar":{"text":"This site uses cookies for analytics, personalized content and ads. By continuing to browse this site, you agree to this use. ","detail":"<a href=\"\/en\/GDPR\" pimcore_id=\"1107\" pimcore_type=\"document\">Details<\/a>","detailUrl":"\/en\/GDPR","settings":"Cookie Settings","accept":"Accept"},"cookieModal":{"title":"Cookie Options","toggleAll":"Select all","detail":"Details","save":"Save"},"cookieServices":{"google":{"text":"Google Analytics"},"salesforce":{"text":"Pardot"}},"affixNavbar":true,"toggleOverlay":true,"search":true,"actionChanger":true,"breadcrumbs":true,"parsley":true,"stepForm":true}); -->
-    <!-- </script> -->
+
     <script type="application/ld+json">
       {"@context":"https:\/\/schema.org","@type":"Organization","name":"Greiner Packaging International GmbH","url":"https:\/\/www.greiner-gpi.com","email":"office@greiner-gpi.com","telephone":"+43 7583 72 510","logo":"https:\/\/dev-greiner.elements.zone\/assistec-logo.svg","address":{"@context":"https:\/\/schema.org","@type":"PostalAddress","streetAddress":"Greinerstraße 70","postalCode":"4550","addressLocality":"Kremsmünster","addressRegion":"Oberösterreich","addressCountry":"AT"},"sameAs":["https:\/\/www.facebook.com\/pg\/GreinerPackaging\/about\/","https:\/\/www.youtube.com\/channel\/UCH06Hxvz0e_3QIWPfeJcwxQ","https:\/\/de.linkedin.com\/company\/greiner-assistec"]}
     </script>
